@@ -1,15 +1,18 @@
-# Baekjoon-Algorithm
+# Baekjoon Algorithm
+> 백준 알고리즘 공부
 
-Baekjoon Online Judge
+## Baekjoon Online Judge
+> https://www.acmicpc.net/
 
-Since 2018.2.25.
+## Since
+> 2018.2.25. ~
 
-BOJ Ranking : 
+## Ranking
+2018.5.31. - 11362
 
-2018.2.25. - 21945
-
-2018.3.2. - 10290
-
-2018.3.5. - 9877
-
-
+## Plan
+- DP
+- DFS
+- BFS
+- Greedy
+- Graph
