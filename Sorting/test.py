@@ -1,12 +1,10 @@
-
-N = input()
-
 a = []
-for k in range(int(N)):
-    word = input()
-    if word not in a:
-        a.append(word)
+for _ in range(int(input())):
+    tmp = input()
+    if tmp not in a:
+        a.append(tmp)
+a.sort()
 
-print(a)
-a.sort(reverse=True)
-a
+
+for i in sorting(a):
+    print(i)
