@@ -23,8 +23,8 @@ def bfs():
             if visit[wx][wy] == 0 and map[wx][wy] == '1':
                 visit[wx][wy] = now + 1
                 arr.append([wx, wy])
-        # print('arr :', arr)
-        # print('visit :', visit)
+        print('arr :', arr)
+        print('visit :', visit)
 
 row, col = map(int, input().split())
 map = [""] * row
