@@ -5,7 +5,7 @@ for i in range(n):
     stair.append(int(input()))
 
 sum = []
-sum
+
 sum.append(stair[0])
 sum.append(stair[1]+stair[0])
 sum.append(max(stair[2]+stair[0], stair[2]+stair[1])) # 점화식을 위한 초기 3개값
